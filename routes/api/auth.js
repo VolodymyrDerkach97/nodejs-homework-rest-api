@@ -3,7 +3,6 @@ const express = require("express");
 const { controllerWrapper } = require("../../helpers");
 const { validateBody, auth, upload } = require("../../middlewares");
 const { schemas } = require("../../models/user");
-
 const usersController = require("../../controllers/auth");
 
 const router = express.Router();
